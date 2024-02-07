@@ -78,7 +78,7 @@ r = range(1, 10, 2) # 1 3 5 7
 r = range(100, 0, -20) # 100 80 60 40 20
 r = range(100, 0, -20) # range(100, 0, -20)
 for i in r:
-print(i)
+    print(i)
 # 100 80 60 40 20
 
 # \------------------------------------------------------------------------------------
@@ -94,15 +94,15 @@ print(text.replace('ещё','ЕЩЁ')) # СъЕШЬ ЕЩЁ этих МяГкИх
 print("TASK 10")
 # Срезы
 text = 'съешь ещё этих мягких французских булок'
- print(text[0]) # c
- print(text[1]) # ъ
- print(text[len(text)-1]) # к
- print(text[-5]) # б
- print(text[:]) # съешь ещё этих мягких французских булок
- print(text[:2]) # съ
+print(text[0]) # c
+print(text[1]) # ъ
+print(text[len(text)-1]) # к
+print(text[-5]) # б
+print(text[:]) # съешь ещё этих мягких французских булок
+print(text[:2]) # съ
 print(text[len(text)-2:]) # ок
- print(text[2:9]) # ешь ещё
- print(text[6:-18]) # ещё этих мягких
- print(text[0:len(text):6]) # сеикакл
- print(text[::6]) # сеикакл
- text = text[2:9] + text[-5] + text[:2] # ...
+print(text[2:9]) # ешь ещё
+print(text[6:-18]) # ещё этих мягких
+print(text[0:len(text):6]) # сеикакл
+print(text[::6]) # сеикакл
+text = text[2:9] + text[-5] + text[:2] # ...

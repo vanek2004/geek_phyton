@@ -69,11 +69,23 @@ print("TASK 4")
 # Считать, что такой элемент может быть только один. 
 # Если значение k совпадает с этим элементом - выведите его.
 # Пример:
-# list_1 = [1, 2, 3, 4, 5]
-# k = 6
+list_1 = [1, 2, 3, 4, 5, 6]
+k = 6
 # # 5
 
-# -------
+result = []
+
+min = max(list_1)
+
+for i in list_1:
+    diff = abs(i - k)
+    if min > diff:
+        min == diff
+        result = [i]
+    elif min == diff:
+        result.append(i)
+for i in result:
+    print(f'-> {i}')
 
 
 #--------------------------------------------------------
